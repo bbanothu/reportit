@@ -1,0 +1,96 @@
+.symptoms-container {
+  display: flex;
+  margin-right: 5px;
+}
+
+.symptom-btn {
+  border: 1px solid #ccc !important;
+  background-color: #E2E4E6 !important;
+  color: #000;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.2s, border 0.2s;
+  margin-right: 5px;
+  width: 150px;
+}
+
+.symptom-btn.selected {
+  background-color: #7E56DA !important;
+  border-color: #7E56DA !important;
+  color: #fff;
+}
+
+.invalid-feedback {
+  color: red;
+  margin-top: 10px;
+}
+
+
+.clickable-label {
+  cursor: pointer;
+}
+
+.gray-text {
+  color: lightgray;
+  font-weight: bold;
+
+}
+
+.black-text {
+  color: black;
+  font-weight: bold;
+
+}
+
+.scrollable-row {
+  overflow-x: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.symptom-btn {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.2s, border 0.2s;
+  margin-right: 5px;
+  width: "50px"
+}
+
+.selected {
+  background-color: #7E56DA;
+  border-color: #7E56DA;
+  color: #fff;
+  width: "50px"
+
+}
+
+.form-check-input[type="checkbox"]:not(:checked) {
+  background-color: white;
+  border-color: #7E56DA;
+}
+
+.form-check-input[type="checkbox"]:checked {
+  background-color: #7E56DA;
+  border-color: #7E56DA;
+}
+
+.hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
